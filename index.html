@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixper</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="border"></div>
+        <div class="container header__container">
+            <div class="header__top">
+
+                <a class="logo" href="#">
+                    <img class="header__logo" src="images/header-logo.png" alt="">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list ">
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#diagnostic">Диагностика</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#price">Стоимость</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#team">Мастера</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#comments">Отзывы</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#questions">Вопросы</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="burger">
+
+                </div>
+                <div class="call">
+                    <p class="call__text">Москва</p>
+                    <a href="#" class="call__button">Позвонить</a>
+                </div>
+            </div>
+            <div class="header__top-mobile">
+                <a href="#"><img src="images/header-logo.png" alt=""></a>
+                <a href="#" class="call__button active">Позвонить</a>
+            </div>
+            <div class="header__content">
+                <div class="header__content--box">
+                    <div class="header__text-box">
+                        <h1 class="header__title">Ремонт стиральных машин на дому c годовой гарантией</h1>
+                        <p class="header__text"><span>Отремонтируем на дому</span> или бесплатно завезем и доставим
+                            обратно
+                            из
+                            сервисного центра</p>
+                    </div>
+                    <a href="#call" class="header__btn">Заказать звонок</a>
+                </div>
+
+                <div class="header__bottom">
+                    <div class="header__bottom-imga">
+                        <img class="header__bottom-img" src="images/krest.svg" alt="">
+                    </div>
+                    <div class="header__bottom-box">
+                        <p class="header__bottom-text header__bottom-text--one"><span>Мы открыты и принимаем заказы до
+                                21:00</span>, позвоните сейчас и мы сделаем скидку 15%</p>
+                        <p class="header__bottom-text header__bottom-text--two"><span><a href="#">Получить
+                                    скидку</a></span> <img class="header__arrow" src="images/Arrow.svg" alt="">
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <div class="services__box">
+                <div class="servives__block">
+                    
+                        <img class="servives__block-img" src="images/services-img-1.svg" alt="">
+                    
+                    <p class="servives__block-text">Фирменные запчасти у мастеров в наличии</p>
+                </div>
+                <div class="servives__block">
+                    
+                        <img class="servives__block-img" src="images/services-img-2.svg" alt="">
+                    
+                    <p class="servives__block-text">Большинство ремонтов делаем за час на дому</p>
+                </div>
+                <div class="servives__block">
+                    
+                        <img class="servives__block-img" src="images/services-img-3.svg" alt="">
+                    
+                    <p class="servives__block-text">Профессиональный инструмент под любую задачу</p>
+                </div>
+                <div class="servives__block">
+                    
+                        <img class="servives__block-img" src="images/services-img-4.svg" alt="">
+                    
+                    <p class="servives__block-text">Квалифицированные и опытные мастера</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diagnostic" class="problems">
+        <div class="container">
+            <div class="problems__content">
+                <p class="problems__subtitle">Онлайн-диагностика</p>
+                <h2 class="problems__title title">Какая у вас проблема?</h2>
+                <div class="problems__box">
+                    <button class="problems__btn">Не включается</button>
+                    <button class="problems__btn">Не выключается</button>
+                    <button class="problems__btn">Не нагревает воду</button>
+                    <button class="problems__btn">Все работает, но мне скучно и я хочу пообщаться с мастером</button>
+                    <button class="problems__btn">Не крутится барабан</button>
+                    <button class="problems__btn">Не работает кнопка включения</button>
+                    <button class="problems__btn">Не выключается</button>
+                    <button class="problems__btn">Иная проблема</button>
+                    <button class="problems__btn">Не крутится барабан</button>
+                    <button class="problems__btn">Не крутится барабан</button>
+                    <button class="problems__btn">Не работает кнопка включения</button>
+                </div>
+                <div class="problems__warning">
+                    <img class="problems__warning-img" src="images/warning.svg" alt="">
+                    <p class="problems__warning-text">Выберите проблему и узнайте её решение</p>
+                </div>
+            </div>
+        </div>
+        <div class="problems problems__popup">
+            <div class="container">
+                <div class="problems__content problems__popup-content">
+                    <a class="popup__close">
+                        <img class="popup__close-img" src="images/arrow-popup.svg" alt="">
+                        <p class="popup__close-text">Выбрать другую проблему</p>
+                    </a>
+                    <h2 class="problems__title title">Вероятней всего:</h2>
+                    <div class="problems__box-popup">
+                        <div class="problems__popup-block">
+                            <div class="popup__circle">
+                                <svg width="120" height="120">
+                                    <circle class="circle-one" cx="60" cy="60" r="50"></circle>
+                                    <circle class="circle-two" cx="60" cy="60" r="50"></circle>
+
+                                </svg>
+                                <div class="popup__number">
+                                    <span>51%</span>
+                                </div>
+
+                            </div>
+                            <div class="popup__info">
+                                <p class="popup__info-title">Замена фильтра</p>
+                                <p class="popup__info-subtitle">1 200₽ <span>+ запчасть от 3500₽</span></p>
+                            </div>
+                        </div>
+                        <div class="problems__popup-block">
+                            <div class="popup__circle">
+                                <svg width="120" height="120">
+                                    <circle class="circle-one" cx="60" cy="60" r="50"></circle>
+                                    <circle class="circle-two" cx="60" cy="60" r="50"></circle>
+
+                                </svg>
+                                <div class="popup__number">
+                                    <span>51%</span>
+                                </div>
+
+                            </div>
+                            <div class="popup__info">
+                                <p class="popup__info-title">Замена фильтра</p>
+                                <p class="popup__info-subtitle">1 200₽ <span>+ запчасть от 3500₽</span></p>
+                            </div>
+                        </div>
+                        <div class="problems__popup-block">
+                            <div class="popup__circle">
+                                <svg width="120" height="120">
+                                    <circle class="circle-one" cx="60" cy="60" r="50"></circle>
+                                    <circle class="circle-two" cx="60" cy="60" r="50"></circle>
+
+                                </svg>
+                                <div class="popup__number">
+                                    <span>51%</span>
+                                </div>
+
+                            </div>
+                            <div class="popup__info">
+                                <p class="popup__info-title">Замена фильтра</p>
+                                <p class="popup__info-subtitle">1 200₽ <span>+ запчасть от 3500₽</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup__link">
+                        <a href="#call" class="popup__btn">
+                            Вызвать мастера с выездом от 45 минут
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="price" class="price">
+        <div class="container">
+            <div class="price__box">
+                <h2 class="price__title title">Стоимость работ</h2>
+                <div class="price__list">
+                    <div class="price__block">
+                        <p class="price__block-text">Услуга</p>
+                        <div class="price__block-right ">
+                            <p class="price__block-text price__none">Стоимость запчасти</p>
+                            <p class="price__block-text">Стоимость работ</p>
+                        </div>
+                    </div>
+                    <div class="price__block">
+                        <p class="price__block-text">Выезд мастера</p>
+                        <div class="price__block-right">
+                            <p class="price__block-text plum">Бесплатно</p>
+                        </div>
+                    </div>
+                    <div class="price__block">
+                        <p class="price__block-text">Диагностика стиральной машины</p>
+                        <div class="price__block-right">
+                            <p class="price__block-text plum">Бесплатно</p>
+                        </div>
+                    </div>
+                    <div class="price__block">
+                        <p class="price__block-text">Замена блока питания</p>
+                        <div class="price__block-right">
+                            <p class="price__block-text price__black">от 750₽</p>
+                            <p class="price__block-text price__black">900₽</p>
+                        </div>
+                    </div>
+                    <div class="price__block">
+                        <p class="price__block-text">Замена помпы</p>
+                        <div class="price__block-right">
+                            <p class="price__block-text price__black">от 8880₽</p>
+                            <p class="price__block-text price__black">1900₽</p>
+                        </div>
+                    </div>
+                    <div class="price__block">
+                        <p class="price__block-text">Замена подшипников</p>
+                        <div class="price__block-right">
+                            <p class="price__block-text price__black">от 1450₽</p>
+                            <p class="price__block-text price__black">750₽</p>
+                        </div>
+                    </div>
+                    <div class="price__block-more">
+                        <div class="price__block ">
+                            <p class="price__block-text">Чистка фильтра</p>
+                            <div class="price__block-right">
+                                <p class="price__block-text price__black">от 500₽</p>
+                                <p class="price__block-text price__black">600₽</p>
+                            </div>
+                        </div>
+                        <div class="price__block ">
+                            <p class="price__block-text">Ремонт дверцы</p>
+                            <div class="price__block-right">
+                                <p class="price__block-text price__black">от 400₽</p>
+                                <p class="price__block-text price__black">800₽</p>
+                            </div>
+                        </div>
+                        <div class="price__block">
+                            <p class="price__block-text">Замена тэна</p>
+                            <div class="price__block-right">
+                                <p class="price__block-text price__black">от 1000₽</p>
+                                <p class="price__block-text price__black">5000₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price__more">
+                        <p class="more__text plum">Показать все цены</p>
+                        <img class="more__img" src="images/more-img.svg" alt="">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <div class="team__inner">
+                <p class="team__subtitle plum">
+                    В нашем штате 37 сотрудников
+                </p>
+                <h2 class="team__title title">
+                    Мы большая команда профессионалов
+                </h2>
+            </div>
+            <div class="slider">
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-1.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-2.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-3.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-4.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-5.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-6.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-7.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-8.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-9.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-10.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/Man-11.jpg" alt="">
+                    <div class="team__block-info">
+                        <div class="name">
+                            <h3 class="team__block-title name-title">
+                                Александр Федулов
+                            </h3>
+                            <p class="team__block-text">
+                                Ремонтник
+                            </p>
+                        </div>
+                        <div class="expiriens">
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">398 ремонтных работ</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">3 года в Fixper</p>
+                            </div>
+                            <div class="expiriens__item">
+                                <img class="expiriens__item-img" src="images/check.svg" alt="">
+                                <p class="expiriens__item-text plum">Рейтинг Fixper 4,5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <img class="team__block-img" src="images/26.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments" class="comments">
+        <div class="container">
+
+            <h2 class="comments__title title">
+                Нас высоко оценивают
+            </h2>
+            <div class="slider__two">
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-1.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Знаю AXIS, как опытных экспертов в области создания визуализаций любой сложности. Умеют
+                            четко,
+                            грамотно и по делу формулировать мысли. Исследовать вопросы. Капают — глубоко. В 3D
+                            визуализации
+                            стремятся не заработать на клиенте, а решить проблемы и предподнести проект в выгодном
+                            свете!
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-2.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN,
+                            смогли
+                            сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к
+                            Вам,
+                            ваш клиент.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-1.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Знаю AXIS, как опытных экспертов в области создания визуализаций любой сложности. Умеют
+                            четко,
+                            грамотно и по делу формулировать мысли. Исследовать вопросы. Капают — глубоко. В 3D
+                            визуализации
+                            стремятся не заработать на клиенте, а решить проблемы и предподнести проект в выгодном
+                            свете!
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-2.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN,
+                            смогли
+                            сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к
+                            Вам,
+                            ваш клиент.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-1.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Знаю AXIS, как опытных экспертов в области создания визуализаций любой сложности. Умеют
+                            четко,
+                            грамотно и по делу формулировать мысли. Исследовать вопросы. Капают — глубоко. В 3D
+                            визуализации
+                            стремятся не заработать на клиенте, а решить проблемы и предподнести проект в выгодном
+                            свете!
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-2.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN,
+                            смогли
+                            сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к
+                            Вам,
+                            ваш клиент.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-1.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Знаю AXIS, как опытных экспертов в области создания визуализаций любой сложности. Умеют
+                            четко,
+                            грамотно и по делу формулировать мысли. Исследовать вопросы. Капают — глубоко. В 3D
+                            визуализации
+                            стремятся не заработать на клиенте, а решить проблемы и предподнести проект в выгодном
+                            свете!
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__two-slick">
+                    <div class="slider__two-slick__info">
+                        <div class="slider__two-about">
+                            <img class="slider__two-img" src="images/avatar-2.png" alt="">
+                            <div class="slider__two-about-info">
+                                <h3 class="slider__two-title name-title">
+                                    Владимир Завертайлов
+                                </h3>
+                                <p class="slider__two-subtitle">
+                                    15 марта 2021
+                                </p>
+                            </div>
+                        </div>
+                        <p class="slider__two-text">
+                            Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN,
+                            смогли
+                            сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к
+                            Вам,
+                            ваш клиент.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="score">
+        <div class="container">
+            <div class="score__box">
+                <div class="score__block">
+                    <div class="score__block-item">
+                        <p class="score__block-title"><span>4,5</span> / 5.0</p>
+                        <p class="score__block-subtitle">100+ оценок</p>
+                    </div>
+                    <div class="score__block-img">
+                        <img src="images/score-1.png" alt="">
+                    </div>
+                </div>
+                <div class="score__block">
+                    <div class="score__block-item">
+                        <p class="score__block-title"><span>4,8</span> / 5.0</p>
+                        <p class="score__block-subtitle">250+ оценок</p>
+                    </div>
+                    <div class="score__block-img">
+                        <img src="images/score-2.png" alt="">
+                    </div>
+                </div>
+                <div class="score__block">
+                    <div class="score__block-item">
+                        <p class="score__block-title"><span>4,3</span> / 5.0</p>
+                        <p class="score__block-subtitle">10 000+ оценок</p>
+                    </div>
+                    <div class="score__block-img">
+                        <img src="images/score-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="questions" class="questions">
+        <div class="container">
+            <div class="questions__box">
+                <div class="questions__titles">
+                    <h2 class="questions__title title">Часто задаваемые вопросы</h2>
+                    <p class="questions__subtitle">Не нашли ответ на свой вопрос? <a class="questions__link"
+                            href="#">Оставьте заявку</a> и наш специалист свяжется и ответит на ваш вопрос</p>
+                </div>
+                <ul class="questions__list">
+                    <li class="questions__list-item">
+                        <p class="questions__list-text">Где почитать отзывы о вас?</p>
+                        <button class="questions__list-btn"><img class="questions__btn-img" src="images/plus.svg"
+                                alt=""></button>
+                        <div class="btn__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+                            dolorem error, perspiciatis eaque similique tempora sunt ad architecto dolor beatae autem,
+                            sequi rem sint reprehenderit at. Voluptatum facilis modi nam.</div>
+                    </li>
+                    <li class="questions__list-item">
+                        <p class="questions__list-text">Сколько времени длится ремонт?</p>
+                        <button class="questions__list-btn"><img class="questions__btn-img" src="images/plus.svg"
+                                alt=""></button>
+                        <div class="btn__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+                            dolorem error, perspiciatis eaque similique tempora sunt ad architecto dolor beatae autem,
+                            sequi rem sint reprehenderit at. Voluptatum facilis modi nam.</div>
+                    </li>
+                    <li class="questions__list-item">
+                        <p class="questions__list-text">Какие марки стиральных машин вы ремонтируете?</p>
+                        <button class="questions__list-btn"><img class="questions__btn-img" src="images/plus.svg"
+                                alt=""></button>
+                        <div class="btn__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+                            dolorem error, perspiciatis eaque similique tempora sunt ad architecto dolor beatae autem,
+                            sequi rem sint reprehenderit at. Voluptatum facilis modi nam. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Laudantium, suscipit, veritatis ad at tenetur necessitatibus
+                            rerum aperiam ipsam molestiae culpa veniam! Saepe vero debitis eaque, autem libero ad
+                            doloremque assumenda!</div>
+                    </li>
+                    <li class="questions__list-item">
+                        <p class="questions__list-text">Я живу в московской области, сможете приехать?</p>
+                        <button class="questions__list-btn"><img class="questions__btn-img" src="images/plus.svg"
+                                alt=""></button>
+                        <div class="btn__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+                            dolorem error, perspiciatis eaque similique tempora sunt ad architecto dolor beatae autem,
+                            sequi rem sint reprehenderit at. Voluptatum facilis modi nam.</div>
+                    </li>
+                    <li id="call" class="questions__list-item">
+                        <p class="questions__list-text">Как производится контроль качества?</p>
+                        <button class="questions__list-btn"><img class="questions__btn-img" src="images/plus.svg"
+                                alt=""></button>
+                        <div class="btn__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+                            dolorem error, perspiciatis eaque similique tempora sunt ad architecto dolor beatae autem,
+                            sequi rem sint reprehenderit at. Voluptatum facilis modi nam.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="master">
+
+        <div class="master__container">
+            <div class="master__box">
+                <div class="master__titles">
+                    <h2 class="master__title title">
+                        Вызов мастера
+                    </h2>
+                    <p class="master__subtitle">Оставьте заявку сейчас и получите <span>скидку 15%</span></p>
+                </div>
+                <div class="master__call">
+                    <input class="master__input" type="tel" placeholder="Номер телефона">
+                    <button class="master__btn">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="map" class="location">
+        <div class="container">
+            <div class="location__box">
+                <img class="location__img" src="images/location.jpg" alt="Местонахождение">
+                <div class="contacts">
+                    <h2 class="contacts__title title">Контактная информация</h2>
+                    <p class="contacts__adress">ул. Стрелковая, д. 14 (офис 1)</p>
+                    <p class="contacts__time">8:00—21:00 без выходных</p>
+                    <p class="contacts__adress">ул. Карла Маркса, д. 33 (диспетчерская)</p>
+                    <p class="contacts__time">7:00—23:00 без выходных</p>
+                    <div>
+                        <a class="contacts__link" href="#">iavaisov@gmail.com</a>
+                        <button class="contacts__btn">Позвонить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__navigation">
+                <div class="footer__logo"><img class="footer__logo-img" src="images/footer-logo.jpg" alt=""></div>
+                <nav class="footer__nav">
+                    <ul class="nav__list">
+                        <li class="footer__list-item"><a class="footer__list-link" href="#diagnostic">Диагностика</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#price">Стоимость</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#team">Мастера</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#comments">Отзывы</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#questions">Вопросы</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#map">Карта сайта</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="plata__container">
+            <div class="plata__box">
+                <div class="plata__block-text">
+                    <p class="plata__text">Способы оплаты:</p>
+                </div>
+                <div class="plata__block">
+                    <img class="plata__img" src="images/plata-1.jpg" alt="">
+                </div>
+                <div class="plata__block">
+                    <img class="plata__img" src="images/plata-2.jpg" alt="">
+                </div>
+                <div class="plata__block">
+                    <img class="plata__img" src="images/plata-3.jpg" alt="">
+                </div>
+                <div class="plata__block">
+                    <img class="plata__img" src="images/plata-4.jpg" alt="">
+                </div>
+                <div class="plata__block">
+                    <img class="plata__img" src="images/plata-5.jpg" alt="">
+                </div>
+                <div class="plata__block">
+                    <p class="plata__text">Наличные</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__end">
+            <div class="container">
+                <div class="footer__end-box">
+                    <p>Сервис ремонта бытовой и цифровой техники</p>
+                    <p class="footer__end-text">ЧПТУП «МИКАИЛ» 192007601</p>
+                </div>
+            </div>
+        </div>
+    </footer>  -->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
